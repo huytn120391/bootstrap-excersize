@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FPT telecom clone</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+      crossorigin="anonymous"
+    ></script>
+    <!-- <link href="https://fonts.cdnfonts.com/css/svn-gilroy" rel="stylesheet" /> -->
+    <link
+      href="https://fpt.vn/assets/assetv2/css/fontsgilroy.css?V=1.20_2"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="./asset/style/reset.css" />
+    <link rel="stylesheet" href="./asset/style/style.css" />
+  </head>
+  <body>
+    <header class="fixed-top bg-white">
+      <nav>
+        <div class="header--secondary py-2">
+          <div class="d-flex flex-row justify-content-between container">
+            <div class="d-flex flex-row gap-3 secondary-header__item--left">
+              <a href="#" class="text-white"><span>Khách hàng cá nhân</span></a>
+              <a href="#" class="text-secondary"
+                ><span>Khách hàng doanh nghiệp</span>
+              </a>
+              <a href="#" class="text-secondary"><span>Về FPT Telecom</span></a>
+            </div>
+            <div
+              class="d-flex flex-row justify-content-between gap-3 secondary-header__item--right"
+            >
+              <a href="#" class="text-secondary"><span>Tuyển dụng</span></a>
+              <a href="#" class="text-secondary"
+                ><span>Điểm giao dịch</span>
+              </a>
+              <a href="#" class="text-secondary mr-2"><span>Đăng nhập</span></a>
+              <a href="#" class="text-white"><span>VI</span></a>
+              <a href="#" class="text-secondary"><span>EN</span></a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="d-flex flex-row justify-content-between align-items-center container p-3 header"
+        >
+          <a href="#" class="nav-brand">
+            <img
+              src="./asset/image/fpt-logo.svg"
+              alt="fpt-telecom"
+              height="35"
+            />
+          </a>
+          <div class="user-select-none header__links">
+            <span class="p-2 header__item">Sản phẩm dịch vụ</span>
+            <span class="p-2 header__item">Khuyến mại</span>
+            <span class="p-2 header__item">Hỗ trợ</span>
+            <span class="p-2 header__item">Member FPT</span>
+            <span class="p-2 header__item">Đăng ký online</span>
+            <span class="p-2 header__item">Thanh toán online</span>
+            <span class="p-2 header__item">Khách hàng thân thiết</span>
+            <span class="p-2 header__item">Giới thiệu bạn bè</span>
+          </div>
+          <button class="bg-white">
+            <img src="https://fpt.vn/assets/images/search-icon.svg" alt="" />
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- banner -->
+    <section class="w-100 overflow-hidden banner mb-3"></section>
+
+    <div class="container-fluid">
+      <!-- underbanner -->
+      <section class="d-flex flex-row gap-2 mb-5">
+        <div
+          class="d-flex flex-row align-items-center gap-4 rounded underbanner__item"
+        >
+          <span>
+            <span>
+              <img
+                src="https://fpt.vn/storage/upload/images/menus/icons/link-registry.png"
+                alt="registry"
+              />
+            </span>
+          </span>
+          <span> Đăng ký online </span>
+        </div>
+        <div
+          class="d-flex flex-row align-items-center gap-4 rounded underbanner__item"
+        >
+          <span>
+            <span>
+              <img
+                src="https://fpt.vn/storage/upload/images/menus/icons/link-news.png"
+                alt="news"
+              />
+            </span>
+          </span>
+          <span> Tin tức </span>
+        </div>
+        <div
+          class="d-flex flex-row align-items-center gap-4 rounded underbanner__item"
+        >
+          <span>
+            <span>
+              <img
+                src="https://fpt.vn/storage/upload/images/menus/link-support.png"
+                alt="support"
+              />
+            </span>
+          </span>
+          <span> Hỗ trợ </span>
+        </div>
+      </section>
+
+      <!-- products & services -->
+      <section class="mt-3 d-flex flex-column align-items-center product">
+        <h2 class="mb-5">Sản phẩm dịch vụ</h2>
+        <div
+          class="d-flex flex-column align-items-center position-relative overflow-hidden mb-3 product-1"
+        >
+          <span class="position-absolute product__subtitle">FPT Play</span>
+
+          <a
+            href="#"
+            class="d-flex align-items-center gap-2 position-absolute text-center product__link"
+          >
+            Chi tiết sản phẩm
+            <img
+              src="https://fpt.vn/assets/assetv2/images/icon-detail-product.svg"
+            />
+          </a>
+        </div>
+        <div class="d-flex flex-row gap-3 w-100">
+          <div
+            class="d-flex flex-grow-1 flex-column align-items-center position-relative overflow-hidden mb-3 product--left"
+          >
+            <span class="position-absolute product__subtitle">FPT Camera</span>
+
+            <span class="position-absolute product__title">
+              <h2 class="fw-bold">
+                <span class="text--orange">CÔNG NGHỆ</span>
+                <span class="text--black">TẠO KHÁC BIỆT</span>
+              </h2>
+            </span>
+
+            <a
+              href="#"
+              class="d-flex align-items-center gap-2 position-absolute text-center product__link"
+            >
+              Chi tiết sản phẩm
+              <img
+                src="https://fpt.vn/assets/assetv2/images/icon-detail-product.svg"
+              />
+            </a>
+          </div>
+          <div
+            class="d-flex flex-grow-1 flex-column align-items-center position-relative overflow-hidden mb-3 product--right"
+          >
+            <span class="position-absolute product__subtitle">F-Safe</span>
+
+            <span class="position-absolute product__title">
+              <h2 class="fw-bold">
+                <span class="text-white">ONLINE</span>
+                <span class="text--black">TẠO KHÁC BIỆT</span>
+              </h2>
+            </span>
+
+            <a
+              href="#"
+              class="d-flex align-items-center gap-2 position-absolute text-center product__link"
+            >
+              Chi tiết sản phẩm
+              <img
+                src="https://fpt.vn/assets/assetv2/images/icon-detail-product.svg"
+              />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="mt-5 news">
+        <h2 class="mb-4 w-100 text-center">Tin tức - Khuyến mại</h2>
+        <div
+          class="d-flex flex-row w-100 gap-3 justify-content-center mb-5 news__tab"
+        >
+          <div class="p-2 news__tab__item text-center active">Tin tức</div>
+          <div class="p-2 news__tab__item text-center">Khuyến mãi</div>
+        </div>
+
+        <div class="d-flex flex-row w-100 gap-2">
+          <div
+            class="position-relative rounded news__item"
+            style="
+              background-image: url(https://fpt.vn/storage/upload/images/articles/ad/backgroundchinhquyeniaphuong-1-5538-6694-1687565920.jpg);
+            "
+          >
+            <p class="position-absolute news__description">
+              FPT Camera hỗ trợ địa phương xây dựng nông thôn mới
+            </p>
+          </div>
+          <div
+            class="position-relative rounded news__item"
+            style="
+              background: url(https://fpt.vn/storage/upload/images/articles/ad/368255286_656500683100560_9185730793444638162_n.jpg);
+            "
+          >
+            <p class="position-absolute news__description">
+              FPT Smart Home liên tục khai trương hàng loạt cửa hàng chính hãng
+              khắp 3 miền
+            </p>
+          </div>
+        </div>
+
+        <div class="d-flex flex-row w-100 gap-2 mt-2">
+          <div
+            class="position-relative rounded news__item"
+            style="
+              background: url(https://fpt.vn/storage/upload/images/articles/ad/21823.png);
+            "
+          >
+            <p class="position-absolute news__description">
+              Ứng dụng Hi FPT cập nhật loạt tính năng quản lý Internet
+            </p>
+          </div>
+          <div
+            class="position-relative rounded news__item"
+            style="
+              background: url(https://fpt.vn/storage/upload/images/articles/kit2.png);
+            "
+          >
+            <p class="position-absolute news__description">
+              Liên tục 'hái quả' từ thị trường nước ngoài, FPT lãi hơn 1.300 tỷ
+              sau 2 tháng đầu năm
+            </p>
+          </div>
+          <div
+            class="position-relative rounded news__item"
+            style="
+              background: url(https://fpt.vn/storage/upload/images/articles/duong/gy/lo4.png);
+            "
+          >
+            <p class="position-absolute news__description">
+              FPT trình diễn sản phẩm công nghệ kiến tạo hạnh phúc tại Techfest
+              Vietnam 2022
+            </p>
+          </div>
+        </div>
+
+        <div class="w-100 text-center mt-3">
+          <a href="#" class="more-news__link"> Xem tất cả </a>
+          <img
+            src="https://fpt.vn/assets/assetv2/images/icon-detail-product.svg"
+          />
+        </div>
+      </section>
+    </div>
+
+    <footer class="mt-3 p-3 d-flex justify-content-between align-items-center">
+      <a href="#" class="nav-brand">
+        <img src="./asset/image/fpt-logo.svg" alt="fpt-telecom" height="35" />
+      </a>
+
+      <div class="d-flex flex-row gap-2">
+        <img
+          class="icon"
+          src="https://fpt.vn/storage/upload/images/menus/social-network/foot-hifpt.png"
+          alt="hifpt"
+        />
+        <img
+          class="icon"
+          src="https://fpt.vn/storage/upload/images/menus/social-network/foot-youtube.png"
+          alt="youtube"
+        />
+        <img
+          class="icon"
+          src="https://fpt.vn/storage/upload/images/menus/social-network/foot-instagram.png"
+          alt="instagram"
+        />
+        <img
+          class="icon"
+          src="https://fpt.vn/storage/upload/images/menus/social-network/foot-zalo.png"
+          alt="zalo"
+        />
+        <img
+          class="icon"
+          src="https://fpt.vn/storage/upload/images/menus/social-network/foot-facebook.png"
+          alt="facebook"
+        />
+      </div>
+    </footer>
+  </body>
+</html>
