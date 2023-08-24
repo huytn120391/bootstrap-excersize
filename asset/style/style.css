@@ -158,6 +158,12 @@ a.text-secondary:hover {
   color: var(--BrandGreen);
 }
 
+@media screen and (max-width: 992px) {
+  .underbanner {
+    flex-direction: column !important;
+  }
+}
+
 .product > h2 {
   font-weight: 700;
 }
@@ -202,6 +208,12 @@ a.text-secondary:hover {
   height: 570px;
 }
 
+@media screen and (max-width: 768px) {
+  .product--below {
+    flex-direction: column !important;
+  }
+}
+
 .product__title {
   bottom: 18%;
   font-weight: 600;
@@ -243,8 +255,24 @@ a.text-secondary:hover {
   transition: color 0.2s;
 }
 
+.news__description__text {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .news__item:hover {
   color: var(--BrandOrange) !important;
+}
+
+@media screen and (max-width: 768px) {
+  .news__list {
+    flex-direction: column !important;
+    min-height: 800px;
+    max-height: 1200px;
+  }
 }
 
 .active {
